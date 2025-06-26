@@ -6,7 +6,7 @@ import io
 st.title("깃허브 QR코드 생성기")
 
 # 깃허브 저장소 URL 입력
-github_url = st.text_input("깃허브 저장소 URL을 입력하세요", "https://github.com/your_id/your_repo")
+github_url = st.text_input("깃허브 저장소 URL을 입력하세요", "https://github.com/JungYunsu/py/tree/main/기말고사")
 
 if github_url:
     # QR 코드 생성
